@@ -166,7 +166,7 @@ $resultado = $conexao->query($sql);
         </form>
         
         <!-- Lista de Produtos Cadastrados -->
-        <h3 style="margin-top: 30px; margin-bottom: 10px;">📋 Produtos Cadastrados</h3>
+        <h3 style="margin-top: 30px; margin-bottom: 10px;">Produtos Cadastrados</h3>
         
         <table class="tabela-lista">
             <thead>
