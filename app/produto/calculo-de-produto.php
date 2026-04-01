@@ -201,7 +201,7 @@ $resultado = $conexao->query($sql);
                             <td><?php echo $row['comissao_mp']; ?>%</td>
                             <td><strong>R$ <?php echo number_format($row['preco_final_mp'], 2, ',', '.'); ?></strong></td>
                             <td>
-                                <a href="editar.php?id=<?php echo $row['id_materia_prima']; ?>" style="color: #003399;">✏️ Editar</a>
+                                <a href="editar.php?id=<?php echo $row['id_materia_prima']; ?>" style="color: #003399;">Editar</a>
                             </td>
                         </tr>
                     <?php endwhile; ?>
