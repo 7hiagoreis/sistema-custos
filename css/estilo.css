@@ -1,0 +1,130 @@
+/* css/estilo.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.cabecalho {
+    background-color: #003399;
+    color: white;
+    padding: 15px 20px;
+}
+
+.cabecalho h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.tabela-cadastro {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabela-cadastro td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.tabela-cadastro input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tabela-cadastro input[readonly] {
+    background-color: #f0f0f0;
+}
+
+.campo-resultado {
+    background-color: #e8f5e9;
+    font-weight: bold;
+}
+
+.botao {
+    background-color: #003399;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.botao:hover {
+    background-color: #002266;
+}
+
+.botao-limpar {
+    background-color: #666;
+}
+
+.botao-limpar:hover {
+    background-color: #555;
+}
+
+.radio-group {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.tabela-lista {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.tabela-lista th {
+    background-color: #999999;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela-lista td {
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.tabela-lista tr:hover {
+    background-color: #f5f5f5;
+}
+
+.msg-erro {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ef9a9a;
+    border-radius: 4px;
+}
+
+.msg-sucesso {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a5d6a7;
+    border-radius: 4px;
+}
